@@ -64,7 +64,7 @@ jobs:
           apk=$(ls app/build/outputs/apk/release/*.apk | head -n1)
           mv "$apk" "glasshouse-${VERSION_NAME}.apk"
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: glasshouse-${{ env.VERSION_NAME }}
           path: glasshouse-${{ env.VERSION_NAME }}.apk
