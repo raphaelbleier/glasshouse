@@ -1,0 +1,51 @@
+<resources>
+    <string name="home_service_description">Zeigt Glasshouse statt des Fire-TV-Startbildschirms.</string>
+
+    <string name="row_on_deck">Weiterschauen</string>
+    <string name="row_recent">Neu hinzugefügt</string>
+    <string name="row_picks">Für dich</string>
+    <string name="row_apps">Apps</string>
+    <string name="tile_launcher_settings">Launcher</string>
+    <string name="tile_system_settings">Einstellungen</string>
+
+    <string name="episode_label">Staffel %1$d · Folge %2$d</string>
+    <string name="length_hours">%1$d Std. %2$d Min.</string>
+    <string name="length_minutes">%1$d Min.</string>
+
+    <string name="error_not_connected">Verbinde deinen Plex-Server in den Launcher-Einstellungen.</string>
+    <string name="error_unreachable">Plex-Server nicht erreichbar</string>
+
+    <string name="settings_title">Launcher-Einstellungen</string>
+    <string name="section_plex">Plex</string>
+    <string name="section_home">Startbildschirm</string>
+    <string name="section_screensaver">Bildschirmschoner</string>
+    <string name="section_system">System</string>
+    <string name="plex_account">Plex-Server</string>
+    <string name="plex_not_connected">Nicht verbunden</string>
+    <string name="plex_connect_hint">Öffne plex.tv/link und gib diesen Code ein:</string>
+    <string name="plex_waiting">Warte auf deine Anmeldung …</string>
+    <string name="plex_pick_server">Server auswählen</string>
+    <string name="plex_no_server">Kein erreichbarer Plex-Server in diesem Konto gefunden.</string>
+    <string name="plex_failed">plex.tv nicht erreichbar</string>
+    <string name="disconnect">Trennen</string>
+    <string name="show_on_deck">„Weiterschauen“ anzeigen</string>
+    <string name="show_recent">„Neu hinzugefügt“ anzeigen</string>
+    <string name="show_picks">„Für dich“ anzeigen</string>
+    <string name="dock_apps">Apps im Dock</string>
+    <string name="dock_apps_value">%1$d Apps</string>
+    <string name="dock_apps_auto">Alle TV-Apps</string>
+    <string name="screensaver_url">Webseite</string>
+    <string name="screensaver_url_hint">z. B. ein Home-Assistant- oder Homelab-Dashboard</string>
+    <string name="screensaver_off">Aus (System-Bildschirmschoner)</string>
+    <string name="screensaver_after">Starten nach</string>
+    <string name="minutes">%1$d Min.</string>
+    <string name="never_sleep">Nie in den Ruhemodus</string>
+    <string name="home_override">Fire-TV-Startbildschirm ersetzen</string>
+    <string name="setup_permission">Setup-Berechtigung</string>
+    <string name="setup_ok">Erteilt</string>
+    <string name="setup_missing">Fehlt — ausführen: adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</string>
+    <string name="on">An</string>
+    <string name="off">Aus</string>
+    <string name="version">Version</string>
+    <string name="done">Fertig</string>
+</resources>

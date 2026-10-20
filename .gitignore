@@ -1,0 +1,17 @@
+.gradle/
+.kotlin/
+build/
+app/build/
+local.properties
+.idea/
+*.iml
+# secrets and personal setup
+.plex-token
+config.json
+keystore.properties
+*.jks
+*.keystore
+# private fonts (e.g. SF Pro) — not redistributable
+app/fonts-private/
+hs_err_pid*.log
+replay_pid*.log

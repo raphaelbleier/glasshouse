@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1026"/>
+      <stop offset="0.55" stop-color="#3A2A7A"/>
+      <stop offset="1" stop-color="#1E6F8C"/>
+    </linearGradient>
+    <linearGradient id="pane" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.07"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0.8" y2="0.8">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.8"/>
+      <stop offset="0.45" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bounce" x1="1" y1="1" x2="0.3" y2="0.3">
+      <stop offset="0" stop-color="#7FE3F5" stop-opacity="0.6"/>
+      <stop offset="0.4" stop-color="#7FE3F5" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.15" r="0.6">
+      <stop offset="0" stop-color="#8F7CFF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#8F7CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.9" cy="0.9" r="0.5">
+      <stop offset="0" stop-color="#2FB8D6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2FB8D6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#glow)"/>
+  <rect width="1280" height="720" fill="url(#glow2)"/>
+  <!-- ghost glass cards -->
+  <g fill="url(#pane)">
+    <rect x="900" y="60" width="300" height="110" rx="26" opacity="0.5"/>
+    <rect x="980" y="560" width="240" height="100" rx="24" opacity="0.4"/>
+  </g>
+  <!-- logo -->
+  <g transform="translate(90 188) scale(0.65)">
+    <rect width="512" height="512" rx="113" fill="url(#bg)"/>
+    <rect width="512" height="512" rx="113" fill="url(#glow)"/>
+    <rect x="76" y="76" width="360" height="360" rx="80" fill="url(#pane)"/>
+    <rect x="77.5" y="77.5" width="357" height="357" rx="78.5" fill="none" stroke="url(#bounce)" stroke-width="3"/>
+    <rect x="77.5" y="77.5" width="357" height="357" rx="78.5" fill="none" stroke="url(#rim)" stroke-width="5"/>
+    <g fill="none" stroke="#fff" stroke-opacity="0.92" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M142 262 L256 158 L370 262" stroke-width="24"/>
+      <path d="M232 276 L232 372 L316 324 Z" stroke-width="20" fill="#fff" fill-opacity="0.92"/>
+    </g>
+    <rect width="512" height="512" rx="113" fill="none" stroke="#fff" stroke-opacity="0.25" stroke-width="3"/>
+  </g>
+  <text x="470" y="370" font-family="Inter, SF Pro Display, system-ui, sans-serif" font-weight="700" font-size="120" fill="#fff" letter-spacing="-2">Glasshouse</text>
+  <text x="474" y="430" font-family="Inter, SF Pro Display, system-ui, sans-serif" font-weight="400" font-size="32" fill="#fff" fill-opacity="0.75">A Liquid Glass launcher for Fire TV &amp; Android TV</text>
+</svg>

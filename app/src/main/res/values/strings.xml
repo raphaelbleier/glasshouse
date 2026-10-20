@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Glasshouse</string>
+    <string name="home_service_description">Shows Glasshouse instead of the Fire TV home screen.</string>
+
+    <string name="row_on_deck">Continue Watching</string>
+    <string name="row_recent">Recently Added</string>
+    <string name="row_picks">For You</string>
+    <string name="row_apps">Apps</string>
+    <string name="tile_launcher_settings">Launcher</string>
+    <string name="tile_system_settings">Settings</string>
+
+    <string name="episode_label">Season %1$d · Episode %2$d</string>
+    <string name="length_hours">%1$d h %2$d min</string>
+    <string name="length_minutes">%1$d min</string>
+
+    <string name="error_not_connected">Connect your Plex server in Launcher settings.</string>
+    <string name="error_unreachable">Plex server unreachable</string>
+
+    <string name="settings_title">Launcher settings</string>
+    <string name="section_plex">Plex</string>
+    <string name="section_home">Home screen</string>
+    <string name="section_screensaver">Screensaver</string>
+    <string name="section_system">System</string>
+    <string name="plex_account">Plex server</string>
+    <string name="plex_not_connected">Not connected</string>
+    <string name="plex_connect_hint">Go to plex.tv/link and enter this code:</string>
+    <string name="plex_waiting">Waiting for you to sign in…</string>
+    <string name="plex_pick_server">Choose a server</string>
+    <string name="plex_no_server">No reachable Plex server found on this account.</string>
+    <string name="plex_failed">Could not reach plex.tv</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="show_on_deck">Show “Continue Watching”</string>
+    <string name="show_recent">Show “Recently Added”</string>
+    <string name="show_picks">Show “For You”</string>
+    <string name="dock_apps">Apps in the dock</string>
+    <string name="dock_apps_value">%1$d apps</string>
+    <string name="dock_apps_auto">All TV apps</string>
+    <string name="screensaver_url">Web page</string>
+    <string name="screensaver_url_hint">e.g. a Home Assistant or homelab dashboard</string>
+    <string name="screensaver_off">Off (system screensaver)</string>
+    <string name="screensaver_after">Start after</string>
+    <string name="minutes">%1$d min</string>
+    <string name="never_sleep">Never go to sleep</string>
+    <string name="home_override">Replace Fire TV home screen</string>
+    <string name="setup_permission">Setup permission</string>
+    <string name="setup_ok">Granted</string>
+    <string name="setup_missing">Missing — run: adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="version">Version</string>
+    <string name="done">Done</string>
+</resources>
